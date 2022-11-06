@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 
@@ -14,7 +14,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int N;
-	cout << "Ââåäèòå ÷èñëî: " << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: " << endl;
 	cin >> N;
-	cout << "Ôàêòîðèàë âàøåãî ÷èñëà ðàâåí:" << Fact(N) << endl;
+	cout << "Ð¤Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» Ð²Ð°ÑˆÐµÐ³Ð¾ Ñ‡Ð¸ÑÐ»Ð° Ñ€Ð°Ð²ÐµÐ½:" << Fact(N) << endl;
 }
